@@ -1,0 +1,32 @@
+{
+  "name": "or-hometown",
+  "version": "1.0.0",
+  "description": "A Multi Purpose Discord bot!",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TYSON",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "axios": "^0.21.1",
+    "common-tags": "^1.8.0",
+    "discord-music-player": "^7.0.0-fix3",
+    "discord-ytdl-core": "^5.0.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "erela.js": "^1.1.8",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.8",
+    "figlet": "^1.5.0",
+    "glob": "^7.1.6",
+    "jimp": "^0.16.1",
+    "moment": "^2.27.0",
+    "ms": "^2.1.2",
+    "os": "^0.1.1",
+    "quickmongo": "^3.0.2",
+    "request": "^2.88.2",
+    "something-random-on-discord": "0.0.2"
+  }
+}
