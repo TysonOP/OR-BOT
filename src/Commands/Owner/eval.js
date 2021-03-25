@@ -5,7 +5,7 @@ module.exports = class extends Command {
         super(...args, {
             aliases: ["evaluate"],
             description: "Only Bot owner can use this command!",
-            category: "Music"
+            category: "Owner"
         });
     }
 
