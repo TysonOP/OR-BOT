@@ -14,7 +14,7 @@ module.exports = class extends Command {
 	async run(message, args) {
         if(!args[0]) return message.channel.send('Please provide some text');
 
-        msg = args.join(" ");
+        const msg = args.join(" ");
 
         figlet.text(msg, function (err, data){
             if(err){
