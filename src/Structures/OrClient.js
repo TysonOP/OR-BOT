@@ -12,9 +12,9 @@ module.exports = class ExpressClient extends Client {
 
         this.nodes = [
             {
-                host: 'lavalink.something.host',
-                port: 80,
-                password: 'youshallnotpass'
+                host: 'lava.danbot.host',
+                port: 2333,
+                password: 'DBH'
             }
         ]
 
