@@ -12,8 +12,8 @@ module.exports = class ExpressClient extends Client {
 
         this.nodes = [
             {
-                host: 'lavalink.something.host',
-                port: 80,
+                host: 'localhost',
+                port: 2333,
                 password: 'youshallnotpass'
             }
         ]
